@@ -1,0 +1,23 @@
+{
+  "news": [
+    {
+      "img": "https://picsum.photos/300/200?random=1",
+      "title": "News",
+      "description": "CSM Digital Media Students Shine at Local Film Festival"
+    }
+  ],
+  "events": [
+    {
+      "img": "https://picsum.photos/300/200?random=1",
+      "title": "CSM Reunion 2024",
+      "date": "Thurs, 21 Nov 2024",
+      "description": "1700 West Hillsdale Boulevard, San Mateo, CA"
+    },
+    {
+      "img": "https://picsum.photos/300/200?random=2",
+      "title": "Inclusion, Innovation and Impact start with I! ",
+      "date": "Fri, 22 Nov 2024",
+      "description": "1700 West Hillsdale Boulevard, San Mateo, CA "
+    }
+  ]
+}
