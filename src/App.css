@@ -1,11 +1,17 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
 background-color: #DFE3EE;
 }
 .main-container {
   display: flex;
   gap: 1.5rem;
-  margin: 1.5rem;
+  padding: 1.5rem;
   width: 100%;
+  max-width: 1512px;
 }
 .App-logo {
   height: 40vmin;
@@ -33,11 +39,4 @@ background-color: #DFE3EE;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

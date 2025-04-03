@@ -11,14 +11,15 @@
 .postInfo h4{
     margin: 0;
 }
-div img{
-    width: 100%;
+.postInfo p {
+    margin: 1rem 0;
 }
 .portfolioLink{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #DFE3EE;
     margin: 0 -1.5rem -1.5rem -1.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 0 0 .8rem .8rem;
 }
