@@ -10,25 +10,42 @@ import ForProfessionals from "./Pages/ForProfessionals";
 import News from "./Pages/News";
 import Events from "./Pages/Events";
 import Contact from "./Pages/Contact";
+import {createTheme, CssBaseline, ThemeProvider} from "@mui/material";
+import {orange} from "@mui/material/colors";
 
+const theme = createTheme({
+    // colorSchemes: {
+    //     // light: true,
+    //     dark: true,
+    // },
+    palette: {
+        mode: "light",
+    },
+    status: {
+        danger: orange[500],
+    },
+});
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route element={<Layout/>}>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/about" element={<About/>}/>
-                    <Route path="/programs" element={<Programs/>}/>
-                    <Route path="/student-projects" element={<StudentProjects/>}/>
-                    <Route path="/for-students" element={<ForStudents/>}/>
-                    <Route path="/for-professionals" element={<ForProfessionals/>}/>
-                    <Route path="/news" element={<News/>}/>
-                    <Route path="/events" element={<Events/>}/>
-                    <Route path="/contact" element={<Contact/>}/>
-                </Route>
-            </Routes>
-        </Router>
+        <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Router>
+                <Routes>
+                    <Route element={<Layout/>}>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/about" element={<About/>}/>
+                        <Route path="/programs" element={<Programs/>}/>
+                        <Route path="/student-projects" element={<StudentProjects/>}/>
+                        <Route path="/for-students" element={<ForStudents/>}/>
+                        <Route path="/for-professionals" element={<ForProfessionals/>}/>
+                        <Route path="/news" element={<News/>}/>
+                        <Route path="/events" element={<Events/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
+                    </Route>
+                </Routes>
+            </Router>
+        </ThemeProvider>
     )
 }
 
