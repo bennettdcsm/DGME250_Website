@@ -11,7 +11,6 @@ div img{
 }
 
 .sideCard:hover{
-    /*background-color: rgba(223, 227, 238, 0.29);*/
     transform: scale(105%);
 }
 .sideCardInfo h3{
@@ -23,7 +22,6 @@ div img{
 }
 .sideCardInfo h4{
     margin: 0;
-    /*margin-bottom: .5rem;*/
 }
 .sideCardInfo p{
     margin: 0;

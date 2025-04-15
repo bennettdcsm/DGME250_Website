@@ -1,11 +1,6 @@
-import {Link} from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import {Container} from 'react-bootstrap'
-import Contact from "./Contact";
 import img1 from '../img/aboutImg1.jpeg'
 import img2 from '../img/videoPlaceHolder1.png'
 import img3 from '../img/videoPlaceHolder2.png'
-import {Switch} from "@mui/material";
 
 export default function About() {
     return (

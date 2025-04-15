@@ -13,23 +13,8 @@ import Contact from "./Pages/Contact";
 import {createTheme, CssBaseline, ThemeProvider} from "@mui/material";
 import {orange} from "@mui/material/colors";
 
-const theme = createTheme({
-    // colorSchemes: {
-    //     // light: true,
-    //     dark: true,
-    // },
-    palette: {
-        mode: "light",
-    },
-    status: {
-        danger: orange[500],
-    },
-});
-
 function App() {
     return (
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
             <Router>
                 <Routes>
                     <Route element={<Layout/>}>
@@ -45,7 +30,6 @@ function App() {
                     </Route>
                 </Routes>
             </Router>
-        </ThemeProvider>
     )
 }
 

@@ -1,7 +1,5 @@
-import EventCard from "../components/EventCard";
 import data from "../json/newsEventsInfo.json";
 import '../components/EventCard/EventCard.css'
-import MainContent from "../components/MainContent";
 import AsideContent from "../components/AsideContent";
 import {useState} from "react";
 import EventInfo from "../components/EventInfo";
