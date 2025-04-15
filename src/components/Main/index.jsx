@@ -9,7 +9,11 @@ export default function Main() {
 
 
     return (
-        <div className='main-content'>
+        <div style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "66%",
+        }}>
             {data.cards.map((card, i) => (
                 <MainContent key={i} img={card.img}  title={card.title} description={card.description} date={card.date} name={card.name}/>
             ))}

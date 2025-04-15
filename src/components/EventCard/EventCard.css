@@ -1,0 +1,13 @@
+.event-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: .8rem;
+    margin-bottom: 3rem;
+    box-shadow: 7px 7px 1rem rgba(0, 0, 0, 0.4);
+}
+
+.eventCardContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}

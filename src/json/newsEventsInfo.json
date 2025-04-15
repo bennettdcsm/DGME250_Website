@@ -1,0 +1,42 @@
+{
+  "news": [
+    {
+      "type": "news",
+      "img": "https://picsum.photos/300/200?random=1",
+      "title": "News",
+      "description": "CSM Digital Media Students Shine at Local Film Festival"
+    }
+  ],
+  "events": [
+    {
+      "type": "event",
+      "img": "https://picsum.photos/300/200?random=2",
+      "title": "CSM Reunion",
+      "date": "Fri, 22 May 2025",
+      "location": "1700 West Hillsdale Boulevard, San Mateo, CA ",
+      "description": "Alumni, faculty, and guests gather every year for CSM Reunion to tour campus spaces, hear from noted speakers, celebrate remarkable works at the annual Parsons alumni exhibition, and much more. Browse the events below and stay tuned for updates. Register today.",
+      "duration": "2 hr",
+      "host": "CSM"
+    },
+    {
+      "type": "event",
+      "img": "https://picsum.photos/300/200?random=2",
+      "title": "Inclusion, Innovation and Impact start with I!",
+      "date": "Fri, 14 Sep 2024",
+      "location": "1700 West Hillsdale Boulevard, San Mateo, CA ",
+      "description": "Join us for an insightful and inspiring event focused on inclusion and empathy in web and UX design. This workshop will delve into the importance of creating inclusive and user-centered designs that consider the diverse needs and perspectives of all usersThis event is open to all Web and UX Design students at College of San Mateo and offers a valuable opportunity to connect with like-minded individuals and develop essential skills for a successful career in design.\n",
+      "duration": "2 hr 30 min",
+      "host": "CSM"
+    },
+    {
+      "type": "event",
+      "img": "https://picsum.photos/300/200?random=2",
+      "title": "Winter Electronic Music Concert",
+      "date": "Fri, 22 Nov 2024",
+      "location": "1700 West Hillsdale Boulevard, San Mateo, CA ",
+      "description": "Mark your calendars!  Join us for an electrifying evening at the Winter Electronic Music Concert!\u2028\u2028This FREE event is your chance to experience incredible performances by talented artists as they bring their creative beats to life. Don’t miss out on this night of music and magic! \u2028\u2028 Spread the word and bring your friends. Let’s make this an unforgettable evening!\u2028\u2028",
+      "duration": "2 hr 30 min",
+      "host": "CSM"
+    }
+  ]
+}
