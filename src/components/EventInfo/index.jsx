@@ -1,13 +1,14 @@
 import {useEffect} from "react";
 
+
 export default function EventInfo(props) {
 
     const {event, onClose} = props;
 
     useEffect(() => {
-        document.body.style.overflow = 'hidden';
+        // document.body.style.overflow = 'hidden';
         return () => {
-            document.body.style.overflow = "unset";
+            // document.body.style.overflow = "unset";
         }
     }, []);
 

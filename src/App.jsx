@@ -10,8 +10,6 @@ import ForProfessionals from "./Pages/ForProfessionals";
 import News from "./Pages/News";
 import Events from "./Pages/Events";
 import Contact from "./Pages/Contact";
-import {createTheme, CssBaseline, ThemeProvider} from "@mui/material";
-import {orange} from "@mui/material/colors";
 
 function App() {
     return (
