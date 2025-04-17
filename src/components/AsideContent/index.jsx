@@ -3,11 +3,11 @@ import React from 'react';
 
 export default function AsideContent(props) {
 
-    const {img, title, location, date, onClick} = props;
+    const {img, title, location, date, alt, onClick} = props;
 
     return (
         <div className="sideCard" onClick={onClick}>
-            <img src={img}/>
+            <img src={img} alt={alt}/>
             <div className="sideCardInfo">
                 <h3>{title}</h3>
                 <h4>{date}</h4>

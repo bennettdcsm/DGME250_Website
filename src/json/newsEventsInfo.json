@@ -3,14 +3,17 @@
     {
       "type": "news",
       "img": "https://picsum.photos/300/200?random=1",
-      "title": "News",
-      "description": "CSM Digital Media Students Shine at Local Film Festival"
+      "alt": "News Thumbnail",
+      "title": "CSM Digital Media Students Shine at Local Film Festival",
+      "date": "Fri, 22 May 2025",
+      "description": "The College of San Mateo’s Digital Media program is proud to announce the success of its students, Annie Lee, at the recent San Francisco International Film Festival. Several student-produced films were selected for screening, and one film, \"Pixel Dreams,\" won the award for Best Student Short Film.\n\n“We are incredibly proud of our students’ hard work and dedication,” said Professor Alex Turner, Program Director of Digital Media. “This recognition is a testament to the quality of education and training they receive at CSM.”\n\nThe Digital Media program at CSM provides students with the skills and knowledge needed to succeed in the competitive field of digital media. With state-of-the-art facilities and experienced faculty, students are able to create high-quality work that is recognized by industry professionals."
     }
   ],
   "events": [
     {
       "type": "event",
       "img": "https://picsum.photos/300/200?random=2",
+      "alt": "News Thumbnail",
       "title": "CSM Reunion",
       "date": "Fri, 22 May 2025",
       "location": "1700 West Hillsdale Boulevard, San Mateo, CA ",
@@ -20,7 +23,8 @@
     },
     {
       "type": "event",
-      "img": "https://picsum.photos/300/200?random=2",
+      "img": "https://picsum.photos/300/200?random=3",
+      "alt": "News Thumbnail",
       "title": "Inclusion, Innovation and Impact start with I!",
       "date": "Fri, 14 Sep 2024",
       "location": "1700 West Hillsdale Boulevard, San Mateo, CA ",
@@ -30,7 +34,8 @@
     },
     {
       "type": "event",
-      "img": "https://picsum.photos/300/200?random=2",
+      "img": "https://picsum.photos/300/200?random=4",
+      "alt": "News Thumbnail",
       "title": "Winter Electronic Music Concert",
       "date": "Fri, 22 Nov 2024",
       "location": "1700 West Hillsdale Boulevard, San Mateo, CA ",

@@ -13,21 +13,21 @@ import Contact from "./Pages/Contact";
 
 function App() {
     return (
-            <Router>
-                <Routes>
-                    <Route element={<Layout/>}>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/about" element={<About/>}/>
-                        <Route path="/programs" element={<Programs/>}/>
-                        <Route path="/student-projects" element={<StudentProjects/>}/>
-                        <Route path="/for-students" element={<ForStudents/>}/>
-                        <Route path="/for-professionals" element={<ForProfessionals/>}/>
-                        <Route path="/news" element={<News/>}/>
-                        <Route path="/events" element={<Events/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
-                    </Route>
-                </Routes>
-            </Router>
+        <Router>
+            <Routes>
+                <Route element={<Layout/>}>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/programs" element={<Programs/>}/>
+                    <Route path="/student-projects" element={<StudentProjects/>}/>
+                    <Route path="/for-students" element={<ForStudents/>}/>
+                    <Route path="/for-professionals" element={<ForProfessionals/>}/>
+                    {/*<Route path="/news" element={<News/>}/>*/}
+                    <Route path="/events" element={<Events/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                </Route>
+            </Routes>
+        </Router>
     )
 }
 

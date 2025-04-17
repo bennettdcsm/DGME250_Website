@@ -1,3 +1,9 @@
-.main-content{
-    width: 66%;
+.student-work{
+    width: 65%;
+}
+@media screen and (max-width: 975px){
+    .student-work{
+        width: 95%;
+        margin-left: 5%;
+    }
 }

@@ -11,3 +11,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
+
+@media screen and (max-width: 675px) {
+    .eventCardContainer {
+        grid-template-columns: 1fr;
+    }
+}
