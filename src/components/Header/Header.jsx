@@ -39,18 +39,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-
-      <div className="header-links">
-        {/* Keep your original links if needed */}
-        <Link to="/">Home </Link>
-        <Link to="/about">About </Link>
-        <Link to="/programs">Programs </Link>
-        <Link to="/student-projects">Student Projects </Link>
-        <Link to="/for-students">For Students </Link>
-        <Link to="/for-professionals">For Professionals </Link>
-        <Link to="/events">Events </Link>
-        <Link to="/contact">Contact</Link>
-      </div>
     </div>
   );
 };
