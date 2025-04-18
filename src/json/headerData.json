@@ -10,17 +10,17 @@
     },
     "navigation": {
       "left": [
-        { "label": "Home", "href": "index.html" },
-        { "label": "About", "href": "about.html" },
-        { "label": "Programs", "href": "programs.html" },
-        { "label": "Student Projects", "href": "student-projects.html" },
-        { "label": "For Students", "href": "for-students.html" },
-        { "label": "For Professionals", "href": "for-professionals.html" }
+        { "label": "Home", "href": "/" },
+        { "label": "About", "href": "/about" },
+        { "label": "Programs", "href": "/programs" },
+        { "label": "Student Projects", "href": "/student-projects" },
+        { "label": "For Students", "href": "/for-students" },
+        { "label": "For Professionals", "href": "/for-professionals" }
       ],
       "right": [
-        { "label": "News", "href": "news.html" },
-        { "label": "Events", "href": "events.html" },
-        { "label": "Contact", "href": "contact.html" }
+        { "label": "News", "href": "/news" },
+        { "label": "Events", "href": "/events" },
+        { "label": "Contact", "href": "/contact" }
       ]
     }
   }
