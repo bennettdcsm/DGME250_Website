@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Ensure Link is imported
+import { Link } from "react-router-dom";
 import "./Header.css";
 import headerData from '../../json/headerData.json';
 
 const Header = () => {
   return (
-    <div className="header-container"> {/* Wrapper for the header */}
+    <div className="header-container">
       <header>
         <div className="header-background">
           <img
@@ -24,17 +24,17 @@ const Header = () => {
         <div className="navigation-menu">
           <div className="navigation-left">
             {headerData.header.navigation.left.map((link, index) => (
-              <a key={index} href={link.href}>
+              <Link key={index} to={link.href}>
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
           <div className="navigation-right">
             {headerData.header.navigation.right.map((link, index) => (
-              <a key={index} href={link.href}>
+              <Link key={index} to={link.href}>
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
