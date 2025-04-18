@@ -1,0 +1,27 @@
+{
+  "header": {
+    "headerBackground": {
+      "src": "images/college-of-san-mateo.png",
+      "alt": "College of San Mateo Campus Picture"
+    },
+    "logo": {
+      "src": "images/digital-media-logo.png",
+      "alt": "Digital Media Logo"
+    },
+    "navigation": {
+      "left": [
+        { "label": "Home", "href": "index.html" },
+        { "label": "About", "href": "about.html" },
+        { "label": "Programs", "href": "programs.html" },
+        { "label": "Student Projects", "href": "student-projects.html" },
+        { "label": "For Students", "href": "for-students.html" },
+        { "label": "For Professionals", "href": "for-professionals.html" }
+      ],
+      "right": [
+        { "label": "News", "href": "news.html" },
+        { "label": "Events", "href": "events.html" },
+        { "label": "Contact", "href": "contact.html" }
+      ]
+    }
+  }
+}
