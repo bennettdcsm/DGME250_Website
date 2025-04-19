@@ -7,19 +7,16 @@
 p{
   font-size: 1rem;
 }
-main{
-  display: flex;
-  padding: 0 1.5rem;
-  width: 100%;
-  gap: 1.5rem;
-  background-color: #DFE3EE;
-}
 
 /*ClassNames*/
 .main-container {
+    /*Main container for full site --- only used in App.jsx*/
     display: flex;
-    gap: 2%;
+    gap: 4%;
     max-width: 1512px;
+    padding: 0 10%;
+    width: 100%;
+    background-color: #DFE3EE;
 }
 .about{
   background-color: #fff;
@@ -46,6 +43,7 @@ main{
 }
 
 .main-content{
+    /*used to create the cards works for all shapes */
     background-color: #fff;
     padding: 1.5rem;
     border-radius: .8rem;
@@ -70,4 +68,5 @@ main{
         width: 95%;
         margin-left: 5%;
     }
+
 }
