@@ -17,9 +17,9 @@ main{
 
 /*ClassNames*/
 .main-container {
-  display: flex;
-  gap: 1.5rem;
-  max-width: 1512px;
+    display: flex;
+    gap: 2%;
+    max-width: 1512px;
 }
 .about{
   background-color: #fff;
@@ -27,7 +27,7 @@ main{
   border-radius: .8rem;
   margin-bottom: 3rem;
   box-shadow: 7px 7px 1rem rgba(0, 0, 0, 0.4);
-  width: 66%;
+  width: 65%;
 }
 .about h2{
   margin-bottom: 1.5rem;
@@ -42,7 +42,6 @@ main{
   margin-bottom: 1.5rem;
 }
 .about img{
-  padding: 0 1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -53,5 +52,22 @@ main{
     margin-bottom: 3rem;
     box-shadow: 7px 7px 1rem rgba(0, 0, 0, 0.4);
     height: 100%;
+    width: 65%;
+}
+.main-content h2{
+    margin-bottom: 1.5rem;
+}
+.eventInfoOverlay p{
+    margin: 1rem 0;
 }
 
+@media screen and (max-width: 975px){
+    .main-content{
+        width: 95%;
+        margin-left: 5%;
+    }
+    .about{
+        width: 95%;
+        margin-left: 5%;
+    }
+}

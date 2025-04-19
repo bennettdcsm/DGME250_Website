@@ -5,13 +5,6 @@ export default function EventInfo(props) {
 
     const {event, onClose} = props;
 
-    useEffect(() => {
-        // document.body.style.overflow = 'hidden';
-        return () => {
-            // document.body.style.overflow = "unset";
-        }
-    }, []);
-
     return (
         <div
             className="eventInfoOverlay"
@@ -38,28 +31,33 @@ export default function EventInfo(props) {
                     maxWidth: "40rem",
                     width: "100%",
                     maxHeight: "50vw",
-                    height: "100%",
+                    height: "85%",
                     overflowY: "auto",
+                    scrollbarWidth: "none",
+                    msOverflowStyle: "none",
                     position: "relative",
                 }}
             >
                 {/* Close button to hide the overlay */}
-                <button
-                    onClick={onClose}
-                    style={{
-                        position: "absolute",
-                        top: "2rem",
-                        right: "1.5rem",
-                        fontSize: "1rem",
-                        outline: "none",
-                        backgroundColor: "#DA5252",
-                        borderRadius: ".2rem",
-                        border: "black 1px solid",
-                    }}
-                >
-                    X
-                </button>
-                <h2 style={{maxWidth:"75%"}}>{event.title}</h2>
+                <div className="cardTitleContainer">
+                    <button
+                        onClick={onClose}
+                        style={{
+                            position: "absolute",
+                            top: "2rem",
+                            right: "1.5rem",
+                            fontSize: "1rem",
+                            outline: "none",
+                            backgroundColor: "#DA5252",
+                            borderRadius: ".2rem",
+                            border: "black 1px solid",
+                        }}
+                    >
+                        X
+                    </button>
+
+                    <h2 style={{maxWidth: "75%"}}>{event.title}</h2>
+                </div>
                 <img src={event.img} alt={event.title} style={{maxWidth: "100%"}}/>
                 <h4>{event.date}</h4>
                 <h4>{event.location}</h4>

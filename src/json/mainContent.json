@@ -2,6 +2,7 @@
   "cards": [
     {
       "img": "https://picsum.photos/1200/800?random=1",
+      "alt": "portfolio Thumbnail",
       "title": "Eye-Catching Graphics that Demand Attention.",
       "date": "November 19, 2024",
       "name": "Jimmy",
@@ -9,6 +10,7 @@
     },
     {
       "img": "https://picsum.photos/1200/800?random=1",
+      "alt": "portfolio Thumbnail",
       "title": "Card Title 1",
       "date": "November 19, 2024",
       "name": "Wilhelm",
@@ -16,6 +18,7 @@
     },
     {
       "img": "https://picsum.photos/1200/800?random=1",
+      "alt": "portfolio Thumbnail",
       "title": "Stand Up, Speak Out!",
       "date": "November 19, 2024",
       "name": "Team",
