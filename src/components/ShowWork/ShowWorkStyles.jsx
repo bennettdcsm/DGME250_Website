@@ -1,4 +1,4 @@
-const studentWork = {
+cardStyle = {
     display: 'flex',
     flexDirection: 'column',
     width: '100%',

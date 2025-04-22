@@ -1,24 +1,23 @@
 import data from "../json/studentProjects.json"
-import ShowWork from "../components/ShowWork/ShowWork";
+import React from 'react'
+import StudentWorkSection from "../components/StudentWorkSection";
+import data2 from "../json/test.json"
 
 
 export default function StudentProjects() {
 
-    return (
-        <div className="main-content">
-            <h1>Student Projects</h1>
-            <h2>Web Design</h2>
-            {data.webDesign.map((item, i) => (
-                <ShowWork
-                    people={ item.people }
-                    title={ item.title }
-                    link={ item.link }
-                    img={ item.img }
-                    date={ item.date }
-                    description={ item.description }
-                />
-            ))}
+    const project = data2.project[0]
 
+    console.log(project)
+    return (
+        <div className='main-content'>
+            {data2.project.map((section, i) => (
+                <div className="main-content">
+                    <h2>{section.title}</h2>
+                    <StudentWorkSection section={project.sections}/>
+                </div>
+            ))}
         </div>
     )
 }
+
