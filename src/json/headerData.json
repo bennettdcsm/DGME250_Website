@@ -18,7 +18,6 @@
         { "label": "For Professionals", "href": "/for-professionals" }
       ],
       "right": [
-        { "label": "News", "href": "/news" },
         { "label": "Events", "href": "/events" },
         { "label": "Contact", "href": "/contact" }
       ]
