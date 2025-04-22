@@ -1,7 +1,8 @@
 {
-  "projects": [
+  "project": [
     {
-      "webDesign": [
+      "title": "Web Design",
+      "sections": [
         {
           "people": "Rona, Diana & Elnara",
           "title": "Web page making",
@@ -29,7 +30,8 @@
       ]
     },
     {
-      "music": [
+      "title": "Music",
+      "sections": [
         {
           "people": "idk at the moment",
           "link": "https://",
@@ -54,7 +56,8 @@
       ]
     },
     {
-      "graphicDesign": [
+      "title": "Graphic Design",
+      "sections": [
         {
           "people": "Rona, Diana & Elnara",
           "title": "Web page making",
@@ -82,7 +85,8 @@
       ]
     },
     {
-      "film": [
+      "title": "Film",
+      "sections": [
         {
           "people": "Rona, Diana & Elnara",
           "title": "Web page making",

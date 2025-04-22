@@ -1,4 +1,5 @@
-
+// import cardStyles from './ShowWorkStyles';
+import data from '../../json/test.json'
 const studentWork = {
     display: 'flex',
     flexDirection: 'column',
@@ -13,7 +14,6 @@ export default function ShowWork( props ) {
     const { people, title, link, img, date, description } = props;
 
     return (
-        <>
             <div className="studentWork" style={studentWork}>
                 <h3>{title}</h3>
                 <img src={img}/>
@@ -22,6 +22,6 @@ export default function ShowWork( props ) {
                 <a href={link} target={"_blank"}>Check out the work</a>
                 {description}
             </div>
-        </>
     )
 }
+

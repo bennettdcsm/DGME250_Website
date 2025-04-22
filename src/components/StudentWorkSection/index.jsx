@@ -1,0 +1,31 @@
+import Carousel from "../Carousel";
+import data from "../../json/studentProjects.json";
+import ShowWork from "../ShowWork/ShowWork";
+import React from "react";
+import data2 from "../../json/studentProjects.json";
+
+
+
+
+export default function StudentWorkSection( props ) {
+
+    const {section} = props;
+    console.log(section);
+    return (
+
+        <div className="work-section">
+            {section.map((work)=>(
+                <ShowWork
+                people={work.people}
+                title={work.title}
+                link={work.link}
+                img={work.img}
+                date={work.date}
+                description={work.description}
+                />
+            ))}
+        </div>
+    )
+}
+
+
