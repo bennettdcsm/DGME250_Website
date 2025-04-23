@@ -1,8 +1,6 @@
-import Carousel from "../Carousel";
-import data from "../../json/studentProjects.json";
 import ShowWork from "../ShowWork/ShowWork";
 import React from "react";
-import data2 from "../../json/studentProjects.json";
+
 
 
 
