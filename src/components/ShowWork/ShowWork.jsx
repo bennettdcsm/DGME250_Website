@@ -1,27 +1,22 @@
 // import cardStyles from './ShowWorkStyles';
-import data from '../../json/test.json'
-const studentWork = {
-    display: 'flex',
-    flexDirection: 'column',
-    width: '100%',
-    backgroundColor: 'green',
-    marginBottom: '2%',
+import './ShowWork.css'
 
-}
+export default function ShowWork(props) {
 
-export default function ShowWork( props ) {
-
-    const { people, title, link, img, date, description } = props;
+    const {people, title, link, img, date, description} = props;
 
     return (
-            <div className="studentWork" style={studentWork}>
-                <h3>{title}</h3>
-                <img src={img}/>
-                <h4>{people}</h4>
-                <h5>{date}</h5>
-                <a href={link} target={"_blank"}>Check out the work</a>
-                {description}
-            </div>
+        <div className="studentWork">
+            <a href={link} target={"_blank"}>
+                <img src={img} alt='thumbnail'/>
+                <div className={'projectInfo'}>
+                    <h3>{title}</h3>
+                    <h4>{people}</h4>
+                    <h5>{date}</h5>
+                    <p>{description}</p>
+                </div>
+            </a>
+        </div>
     )
 }
 

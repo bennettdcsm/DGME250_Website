@@ -1,0 +1,44 @@
+.carousel-button{
+    position: absolute;      /* take them out of the normal flow */
+    top:50%;                /* vertically center */
+    transform: translateY(-50%) scale(1);
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+
+    background: rgba(25,25,25,0.4);
+    border: none;
+    color:white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    z-index: 10;
+
+    transition: 0.5s;
+    font-size: 2.5rem;
+}
+
+.carousel-button.prev {
+    left: 1.5rem;
+}
+
+/* right arrow */
+.carousel-button.next {
+    right: 1.5rem;
+}
+
+.carousel-button:hover {
+    background: rgba(65,65,65,0.75);
+    transform: translateY(-50%) scale(1.10);
+}
+
+
+.page-counter-container {
+    display: flex;
+    justify-content: center;
+    gap: .25rem;
+}

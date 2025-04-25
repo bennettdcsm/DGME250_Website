@@ -1,8 +1,6 @@
-import data from "../json/studentProjects.json"
-import React from 'react'
+// import data from "../json/studentProjects.json"
 import StudentWorkSection from "../components/StudentWorkSection";
 import data2 from "../json/test.json"
-
 
 export default function StudentProjects() {
 
@@ -11,10 +9,10 @@ export default function StudentProjects() {
     console.log(project)
     return (
         <div className='main-content'>
-            {data2.project.map((section, i) => (
-                <div className="main-content">
+            {data2.project.slice(0,4).map((section) => (
+                <div className="projects">
                     <h2>{section.title}</h2>
-                    <StudentWorkSection section={project.sections}/>
+                        <StudentWorkSection section={section.sections} />
                 </div>
             ))}
         </div>
