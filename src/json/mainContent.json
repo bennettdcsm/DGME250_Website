@@ -1,28 +1,28 @@
 {
   "cards": [
     {
-      "img": "https://picsum.photos/1200/800?random=1",
-      "alt": "portfolio Thumbnail",
-      "title": "Eye-Catching Graphics that Demand Attention.",
-      "date": "November 19, 2024",
-      "name": "Jimmy",
-      "description": "Eye-Catching Graphics that Demand Attention.DGME 167 student, Jimmy Lu's vibrant web design is a visual feast that showcases his playful and creative approach to graphic design, reflecting Jimmy's unique style, making it a standout in the digital world!\n"
+      "people": "Noa Mandorf, Sebastian Mendoza",
+      "title": "CSM DGME Website Redesign",
+      "link": "on the way",
+      "img": "images/StudentProject/WebDesign/csmDmge_NoaSebastian.png",
+      "date": "Spring 2025",
+      "description": "hello i did this"
+      },
+    {
+      "people": "Noa Mandorf",
+      "title": "Portfolio",
+      "link": "https://bennettdcsm.github.io/DGME167_NoaM/",
+      "img": "images/StudentProject/WebDesign/portfolio_Noa.png",
+      "date": "Fall 2024",
+      "description": "hello i did this"
     },
     {
-      "img": "https://picsum.photos/1200/800?random=1",
-      "alt": "portfolio Thumbnail",
-      "title": "Card Title 1",
-      "date": "November 19, 2024",
-      "name": "Wilhelm",
-      "description": "DGME 168 student, Wilhelm Habla’s website showcases his commitment to learning and his creative vision. The clean and minimalist design, coupled with the striking imagery, reflects his artistic sensibility."
-    },
-    {
-      "img": "https://picsum.photos/1200/800?random=1",
-      "alt": "portfolio Thumbnail",
-      "title": "Stand Up, Speak Out!",
-      "date": "November 19, 2024",
-      "name": "Team",
-      "description": "DGME 102 students, Michelle, Isaiah & Alexander teamed up to create this simple yet striking design combined with the powerful message. The choices of strong colors and icons make for a strong statement against this harmful behavior."
+      "people": "Sebastian Mendoza",
+      "title": "Children’s Book",
+      "link": "https://www.flickr.com/photos/201246554@N04/54337637272/in/dateposted-public",
+      "img": "/images/StudentProject/GraphicDesign/hideAndSnake_Sebastian.png",
+      "date": "Spring 2025",
+      "description": "hello i did this"
     }
   ]
 }

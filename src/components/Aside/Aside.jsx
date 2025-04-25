@@ -23,7 +23,7 @@ export default function Aside() {
                     <div className={`line ${menuOpen ? "open" : ""}`}></div>
                     <div className={`line ${menuOpen ? "open" : ""}`}></div>
                 </div>
-            <aside className={menuOpen ? "open" : ""} className="main-content">
+            <aside className={menuOpen ? "open" : "main-content" } style={{width:"35%", maxWidth:"394px"}}>
                 <h2>News</h2>
                 <div className="side-content">
                     {data.news.slice(0, 2).map((news, i) => (

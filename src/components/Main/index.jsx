@@ -17,8 +17,8 @@ export default function Main() {
                     title={card.title}
                     description={card.description}
                     date={card.date}
-                    name={card.name}
-                    alt={card.alt}/>
+                    name={card.people}
+                    link={card.link}/>
             ))}
         </div>
     )

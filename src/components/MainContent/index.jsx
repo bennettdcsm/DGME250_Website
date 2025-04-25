@@ -4,7 +4,7 @@ import PortfolioButton from "../Button/PortfolioButton";
 
 export default function MainContent(props) {
 
-    const {img, title, date, description, name, alt} = props
+    const {img, title, date, description, name, link} = props
 
     return (
         <div className="post">
@@ -13,10 +13,10 @@ export default function MainContent(props) {
                 <h4>{date}</h4>
                 <p className="postDescription">{description}</p>
             </div>
-            <img src={img} alt={alt}/>
+            <img src={img}/>
             <div className='portfolioLink'>
-                <h3>Check Out Full Portfolio Here!</h3>
-                <PortfolioButton name={name}/>
+                <h3>Check Out the Work Here!</h3>
+                <PortfolioButton name={name} link={link}/>
             </div>
 
         </div>
