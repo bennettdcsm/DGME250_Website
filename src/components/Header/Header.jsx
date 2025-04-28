@@ -30,13 +30,6 @@ const Header = () => {
             ))}
           </div>
 
-          <div className="navigation-right">
-            {headerData.header.navigation.right.map((link, index) => (
-              <Link key={index} to={link.href}>
-                {link.label}
-              </Link>
-            ))}
-          </div>
         </div>
       </header>
     </div>
