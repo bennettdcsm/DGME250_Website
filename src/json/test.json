@@ -1,0 +1,248 @@
+{
+  "project": [
+    {
+      "title": "Web Design",
+      "sections": [
+        {
+          "people": "Noa Mandorf, Sebastian Mendoza",
+          "title": "CSM DGME Website Redesign",
+          "link": "on the way",
+          "img": "images/StudentProject/WebDesign/csmDmge_NoaSebastian.png",
+          "date": "Spring 2025",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Noa Mandorf",
+          "title": "Portfolio",
+          "link": "https://bennettdcsm.github.io/DGME167_NoaM/",
+          "img": "images/StudentProject/WebDesign/portfolio_Noa.png",
+          "date": "Fall 2024",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Zaida & Yuko",
+          "title": "Autotek Services",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek2/index.html",
+          "img": "images/StudentProject/WebDesign/autotek_ZaidaYuko.png",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Katherine & Daniel",
+          "title": "Autotek Services",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek3/index.html",
+          "img": "images/StudentProject/WebDesign/autotek_KatherinDaniel.png",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Jimmy Lu",
+          "title": "Portfolio",
+          "link": "http://csmdgme.com/DGME167_SPR2K19/Jimmy/index.html",
+          "img": "images/StudentProject/WebDesign/portfolio_Jimmy.png",
+          "date": "Spring 2019",
+          "description": "hello i did this"
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "Broadcast and Electronic Media",
+      "sections": [
+        {
+          "people": "Casey Crews",
+          "title": "Sparkpoint PSA",
+          "link": "https://www.youtube.com/watch?v=_Np1909tl6I",
+          "img": "/images/StudentProject/Broadcast/parkpoint_Casey.jpeg",
+          "date": "year it was made",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Mary Curtis",
+          "title": "Life of a spoon",
+          "link": "https://www.youtube.com/watch?v=1dfZvUx8oe0",
+          "img": "/images/StudentProject/Broadcast/spoon_Mary.jpeg",
+          "date": "year it was made",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Giovanni Valadez",
+          "title": "KCSM Radio - PSA",
+          "link": "https://www.youtube.com/watch?v=DptjhKRb1Xs",
+          "img": "/images/StudentProject/Broadcast/kcsmRadio_Giovanni.jpeg",
+          "date": "year it was made",
+          "description": "hello i did this"
+        },
+        {
+          "people": "Nicolas Fernandez",
+          "title": "A Journey ",
+          "link": "https://www.youtube.com/watch?v=o_GKMOGp1To",
+          "img": "/images/StudentProject/Broadcast/aJourney_Nicolas.jpeg",
+          "date": "Spring 2025",
+          "description": "hello i did this"
+        },
+        {
+          "people": "Jude Sarsour",
+          "title": "Sound Design and Music",
+          "link": "https://www.youtube.com/watch?v=wSzk1Qgs7mY",
+          "img": "/images/StudentProject/Broadcast/soundDesignAndMusic_Jude.jpeg",
+          "date": "Spring 2025",
+          "description": "hello i did this"
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "Graphic Design",
+      "sections": [
+        {
+          "people": "Sebastian Mendoza",
+          "title": "Children’s Book",
+          "link": "https://www.flickr.com/photos/201246554@N04/54337637272/in/dateposted-public",
+          "img": "/images/StudentProject/GraphicDesign/hideAndSnake_Sebastian.png",
+          "date": "Spring 2025",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Xenia Jenssen",
+          "title": "Movie Poster",
+          "link": "https://www.flickr.com/photos/201243888@N04/54145043623/in/dateposted/",
+          "img": "/images/StudentProject/GraphicDesign/ruffLove_Xenia.png",
+          "date": "Fall 2024",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Vera Gornostaleva",
+          "title": "Scientific Illustration",
+          "link": "https://www.flickr.com/photos/201257733@N06/54017905358/in/dateposted/",
+          "img": "images/StudentProject/GraphicDesign/jellyFish_Vera.png",
+          "date": "Fall 2024",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Sebastian Mendoza",
+          "title": "Tri-fold brochure",
+          "link": "https://www.flickr.com/photos/201246554@N04/54106207259/in/dateposted-public",
+          "img": "images/StudentProject/GraphicDesign/brochure_Sebastian.png",
+          "date": "Fall 2024",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Lily Forman",
+          "title": "Type Poster",
+          "link": "https://www.flickr.com/photos/199036675@N08/54398020119/in/dateposted/",
+          "img": "images/StudentProject/GraphicDesign/typePoster_Lily.png",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "UI/UX",
+      "sections": [
+        {
+          "people": "Noa Mandorf",
+          "title": "Concept App",
+          "link": "https://www.figma.com/proto/jeMUHafiYaZgpLk1qpOPjI/App-Mockup-164?page-id=0%3A1&node-id=1-2&p=f&viewport=546%2C163%2C0.05&t=0BevINH97zQg8qvL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
+          "img": "images/StudentProject/UIUX/conceptAPP_Noa.png",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Sebastian Mendoza",
+          "title": "CSM Athletic Center QR Code System",
+          "link": "https://www.figma.com/proto/dEDHndGzMhOvefGou5HcHA/QR-code-system?page-id=26%3A2&node-id=26-3&p=f&viewport=454%2C248%2C0.16&t=zjE6N6fwlDn8RdtM-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=47%3A30&show-proto-sidebar=1&hide-ui=1",
+          "img": "images/StudentProject/UIUX/csmAthletic_Sebastian.png",
+          "date": "Spring 2025",
+          "description": "hello i did this"
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "Film, Television and Electronic Media",
+      "sections": [
+        {
+          "people": "Rona, Diana & Elnara",
+          "title": "Web page making",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek1/index.html",
+          "img": "img",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Zaida & Yuko",
+          "title": "Web page making",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek2/index.html",
+          "img": "img",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Katherine & Daniel",
+          "title": "Web page making",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek3/index.html",
+          "img": "img",
+          "date": "year it was made",
+          "description": "hello i did this"
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "Digital Media Design",
+      "sections": [
+        {
+          "people": "Rona, Diana & Elnara",
+          "title": "Web page making",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek1/index.html",
+          "img": "img",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Zaida & Yuko",
+          "title": "Web page making",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek2/index.html",
+          "img": "img",
+          "date": "Spring 2021",
+          "description": "hello i did this"
+        },
+
+        {
+          "people": "Katherine & Daniel",
+          "title": "Web page making",
+          "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek3/index.html",
+          "img": "img",
+          "date": "year it was made",
+          "description": "hello i did this"
+        }
+      ]
+    }
+  ]
+}
