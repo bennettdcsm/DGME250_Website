@@ -6,8 +6,7 @@ import '../App.css';
 export default function Home() {
 
     return (
-        <div style={{display: "flex", flexDirection: "column", width: "65%"}}>
-            <h1>New Student Work</h1>
+        <div style={{display: "flex", flexDirection: "column", width: "100%"}}>
             <Main/>
         </div>
 

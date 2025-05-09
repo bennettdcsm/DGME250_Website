@@ -1,10 +1,10 @@
-.event-card {
+/* .event-card {
     background-color: #fff;
     padding: 1.5rem;
     border-radius: .8rem;
     margin-bottom: 3rem;
     box-shadow: 7px 7px 1rem rgba(0, 0, 0, 0.4);
-}
+} */
 
 .eventCardContainer{
     display: grid;
@@ -12,8 +12,8 @@
     gap: 1rem;
 }
 
-@media screen and (max-width: 975px) {
+/* @media screen and (max-width: 975px) {
     .eventCardContainer {
         grid-template-columns: 1fr;
     }
-}
+} */

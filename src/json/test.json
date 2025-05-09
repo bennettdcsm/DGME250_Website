@@ -164,6 +164,15 @@
           "img": "images/StudentProject/UIUX/conceptAPP_Noa.png",
           "date": "Spring 2021",
           "description": "hello i did this"
+        },
+
+        {
+          "people": "Sebastian Mendoza",
+          "title": "CSM Athletic Center QR Code System",
+          "link": "https://www.figma.com/proto/dEDHndGzMhOvefGou5HcHA/QR-code-system?page-id=26%3A2&node-id=26-3&p=f&viewport=454%2C248%2C0.16&t=zjE6N6fwlDn8RdtM-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=47%3A30&show-proto-sidebar=1&hide-ui=1",
+          "img": "images/StudentProject/UIUX/csmAthletic_Sebastian.png",
+          "date": "Spring 2025",
+          "description": "hello i did this"
         }
       ]
     },

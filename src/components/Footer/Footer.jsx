@@ -1,27 +1,32 @@
 import React from "react";
-import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer>
       {/* Wrapper for the top part of the footer with expandable background */}
-      <div className="footer-top-wrapper">
-        <div className="footer-top">
-          <div className="footer-top-text">
-            <p className="footer-title">Digital Media Department</p>
+      <div className="bg-[#014991] w-full">
+        <div className="text-white max-w-[1512px] mx-auto flex justify-between p-5">
+          <div className="flex flex-col gap-5">
+            <p className="font-bold">Digital Media Department</p>
             <p>1700 West Hillsdale Boulevard</p>
             <p>San Mateo, CA 94402</p>
             <p>650-574-6494</p>
           </div>
 
-          <div className="footer-center-text">
-            <p>BACK TO TOP</p>
-          </div>
+          <div>
+            <a 
+              href="https://collegeofsanmateo.edu/admissions/apply.php" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+              >
+              <button className="bg-white text-[#014991] border-[4px] border-[#014991] rounded-[0.8rem] py-4 px-8 text-lg font-bold mb-6 transition-all hover:opacity-75 cursor-pointer">
+                Apply Now
+              </button>
+            </a>
 
-          <div className="footer-contact">
-            <button className="footer-button">Apply Now</button>
-            <p className="contact-us">CONTACT US</p>
-            <ul className="social-icons">
+            <p className="font-bold mb-5">CONTACT US</p>
+            <ul className="flex gap-2">
               <li>
                 <a
                   href="https://www.youtube.com/channel/UCvbbcCUtC4Xg1UR3mEBjgpA"
@@ -55,8 +60,8 @@ const Footer = () => {
       </div>
 
       {/* Wrapper for the bottom part of the footer with expandable background */}
-      <div className="footer-bottom-wrapper">
-        <div className="footer-bottom">
+      <div className="bg-[#02386E] w-full">
+        <div className="text-center text-white max-w-[1512px] mx-auto py-5">
           <small>&copy;DGME 2025. All Rights Reserved</small>
         </div>
       </div>

@@ -5,7 +5,7 @@
     overflow: hidden;
     cursor: pointer;
     border-radius: .8rem;
-    max-height: 471px;
+    max-height: 1000px;
 }
 
 /* make the image fill the container and transition its brightness */

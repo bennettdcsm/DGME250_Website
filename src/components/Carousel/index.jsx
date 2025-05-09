@@ -1,6 +1,4 @@
-// src/components/Carousel/Carousel.jsx
 import React, { useState, useEffect, useRef } from "react";
-import "./Carousel.css";
 
 export default function Carousel({ items, renderItem, interval = 3000 }) {
     const [current, setCurrent] = useState(0);
@@ -29,28 +27,40 @@ export default function Carousel({ items, renderItem, interval = 3000 }) {
     };
 
     return (
-        <div className="carousel">
+        <div className="relative overflow-hidden">
             <div
-                className="carousel-inner"
+                className="carousel-inner flex transition-transform duration-500 ease-in-out w-full"
                 style={{ transform: `translateX(-${current * 100}%)` }}
             >
                 {items.map((item, i) => (
-                    <div className="carousel-item" key={i}>
+                    <div className="carousel-item flex-shrink-0 w-full" key={i}>
                         {renderItem(item, i)}
                     </div>
                 ))}
             </div>
 
             {/* Arrows */}
-            <button className="carousel-btn prev" onClick={prevSlide}>&lsaquo;</button>
-            <button className="carousel-btn next" onClick={nextSlide}>&rsaquo;</button>
+            <button
+                className="carousel-btn absolute top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white border-none text-2xl px-2 cursor-pointer z-10 left-4"
+                onClick={prevSlide}
+            >
+                &lsaquo;
+            </button>
+            <button
+                className="carousel-btn absolute top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white border-none text-2xl px-2 cursor-pointer z-10 right-4"
+                onClick={nextSlide}
+            >
+                &rsaquo;
+            </button>
 
             {/* Dots */}
-            <div className="carousel-dots">
+            <div className="carousel-dots absolute bottom-4 left-1/2 transform -translate-x-1/2 flex">
                 {items.map((_, i) => (
                     <button
                         key={i}
-                        className={`dot${i === current ? " active" : ""}`}
+                        className={`dot w-3 h-3 bg-white bg-opacity-50 border-none rounded-full mx-1 cursor-pointer ${
+                            i === current ? "bg-white" : "bg-opacity-50"
+                        }`}
                         onClick={() => goTo(i)}
                     />
                 ))}

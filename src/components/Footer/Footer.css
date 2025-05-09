@@ -1,4 +1,4 @@
-.footer-top-wrapper {
+/* .footer-top-wrapper {
   background-color: #014991;
   width: 100%;
 }
@@ -8,10 +8,10 @@
   background-color: #014991;
   max-width: 1512px;
   margin: 0 auto;
-}
+} */
 
 /* Top Footer -------> */
-.footer-top {
+/* .footer-top {
   color: white;
   display: flex;
   justify-content: space-between;
@@ -57,9 +57,9 @@ ul {
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
-
+*/
 /* Bottom Footer -------> */
-.footer-bottom-wrapper {
+/* .footer-bottom-wrapper {
   background-color: #02386E;
   width: 100%;
 }
@@ -70,4 +70,4 @@ ul {
   max-width: 1512px;
   margin: 0 auto;
   padding: 20px 0;
-}
+} */

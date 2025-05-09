@@ -1,6 +1,6 @@
-.carousel-button{
-    position: absolute;      /* take them out of the normal flow */
-    top:50%;                /* vertically center */
+/* .carousel-button{
+    position: absolute;       take them out of the normal flow
+    top:50%;                vertically center
     transform: translateY(-50%) scale(1);
 
     width: 3rem;
@@ -24,9 +24,10 @@
 
 .carousel-button.prev {
     left: 1.5rem;
-}
+} */
 
-/* right arrow */
+/* 
+right arrow
 .carousel-button.next {
     right: 1.5rem;
 }
@@ -41,4 +42,4 @@
     display: flex;
     justify-content: center;
     gap: .25rem;
-}
+} */
