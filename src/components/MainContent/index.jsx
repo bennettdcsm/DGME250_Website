@@ -5,7 +5,7 @@ export default function MainContent(props) {
   const { img, title, date, description, name, link } = props;
 
   return (
-    <div className="bg-white p-6 rounded-lg mb-[5%] shadow-[7px_7px_1rem_rgba(0,0,0,0.4)]">
+    <div className="bg-white p-6 rounded-lg mb-[5%] shadow-[2px_2px_1rem_rgba(0,0,0,0.1)]">
       <div className="flex flex-col gap-2">
         <h3 className="m-0">{title}</h3>
         <h4 className="m-0">{date}</h4>
