@@ -5,7 +5,7 @@ export default function AsideContent(props) {
 
     return (
         <div
-            className="bg-[#DFE3EE] p-6 rounded-lg mb-6 w-[90%] transition-transform duration-300 ease-in-out hover:scale-105"
+            className="bg-[#DFE3EE] p-6 rounded-lg mb-6 transition-transform duration-300 ease-in-out hover:scale-105"
             onClick={onClick}
         >
             <img src={img} alt={alt} className="w-full mb-4" />

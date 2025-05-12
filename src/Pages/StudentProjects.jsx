@@ -8,9 +8,9 @@ export default function StudentProjects() {
 
     console.log(project)
     return (
-        <div className='main-content'>
+        <div className='className="min-h-[1100px] max-w-[1512px] bg-white shadow-[0_10px_20px_rgba(0,0,0,0.3)] rounded-lg p-6"'>
             {data2.project.slice(0,4).map((section) => (
-                <div className="projects">
+                <div className="p-6">
                     <h2>{section.title}</h2>
                         <StudentWorkSection section={section.sections} />
                 </div>

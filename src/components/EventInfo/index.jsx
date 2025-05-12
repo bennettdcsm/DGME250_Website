@@ -58,7 +58,7 @@ export default function EventInfo(props) {
 
                     <h2 style={{maxWidth: "75%"}}>{event.title}</h2>
                 </div>
-                <img src={event.img} alt={event.title} style={{maxWidth: "100%"}}/>
+                <img src={event.img} alt={event.title} style={{width: "100%"}}/>
                 <h4>{event.date}</h4>
                 <h4>{event.location}</h4>
                 <h4>{event.duration}</h4>
