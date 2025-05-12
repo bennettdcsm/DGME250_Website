@@ -13,7 +13,7 @@ export default function Events() {
         <div className="max-w-[1512px] bg-white shadow-[0_10px_20px_rgba(0,0,0,0.3)] rounded-lg p-6">
             <div className="bg-gradient-to-l-f" style={{width: '100%', margin: 0}}>
                 <h2 className="mb-4">Upcoming Events</h2>
-                <div className="flex flex-col lg:grid lg:grid-cols-2 ">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-4">
                     {data.events.map((event, i) => (
                         <AsideContent
                             key={i}
