@@ -1,5 +1,4 @@
 import data from '../../json/mainContent.json'
-import AsideContent from "../AsideContent";
 import './Main.css'
 import MainContent from "../MainContent";
 

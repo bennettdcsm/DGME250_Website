@@ -1,7 +1,5 @@
 import React from "react";
 import img1 from '../img/aboutImg1.jpeg'
-import img2 from '../img/videoPlaceHolder1.png'
-import img3 from '../img/videoPlaceHolder2.png'
 
 export default function About() {
     return (

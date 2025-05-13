@@ -1,4 +1,3 @@
-import Aside from "../components/Aside/Aside";
 import Main from "../components/Main";
 import '../App.css';
 

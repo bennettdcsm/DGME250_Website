@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-// .vscode/settings.json
-
 export default {
     content: [
         "./index.html",
