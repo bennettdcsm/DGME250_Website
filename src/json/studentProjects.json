@@ -89,7 +89,7 @@
           "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek1/index.html",
           "img": "img",
           "date": "Spring 2021",
-          "description": "hello i did this"
+          "description": ""
         },
         {
           "people": "Zaida & Yuko",
@@ -97,15 +97,15 @@
           "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek2/index.html",
           "img": "img",
           "date": "Spring 2021",
-          "description": "hello i did this"
+          "description": ""
         },
         {
           "people": "Katherine & Daniel",
           "title": "Web page making",
           "link": "http://csmdgme.com/DGME169_SPR2K21/Autotek3/index.html",
           "img": "img",
-          "date": "year it was made",
-          "description": "hello i did this"
+          "date": "",
+          "description": ""
         }
       ]
     }

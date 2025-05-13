@@ -41,12 +41,9 @@ export default function Layout() {
                                         <img src={'images/menu.svg'} alt='menu'/>
                                     </div>
                                 </div>
-
                             :
                             <Aside/>
                         }
-
-
                     </motion.div>
                     <div className='lg:w-[66%]'>
                         <Outlet/>

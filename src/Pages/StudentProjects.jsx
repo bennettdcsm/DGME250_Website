@@ -1,4 +1,3 @@
-// import data from "../json/studentProjects.json"
 import StudentWorkSection from "../components/StudentWorkSection";
 import data2 from "../json/test.json"
 
