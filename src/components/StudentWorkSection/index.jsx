@@ -43,7 +43,7 @@ export default function StudentWorkSection(props) {
     };
 
     return (
-        <div className='max-h-[512px] w-full overflow-hidden flex flex-col items-center justify-center rounded'>
+        <div className='flex flex-col items-center justify-center rounded'>
 
             <div style={studentWork} className="relative flex flex-col gap-4 mb-8">
                 <button onClick={back} className="absolute top-1/2 left-6 transform -translate-y-1/2 w-12 h-12 bg-[rgba(25,25,25,0.4)] text-white flex items-center justify-center cursor-pointer z-10 text-3xl transition duration-500 hover:bg-[rgba(65,65,65,0.75)] hover:scale-110">

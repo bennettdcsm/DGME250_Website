@@ -6,9 +6,9 @@ export default function SeeMore({ type }) {
 
   function findDest() {
     if (type === "news") {
-      return '/news';
+      return '/events#news';
     }
-    return '/events';
+    return '/events#events';
   }
 
   return (
