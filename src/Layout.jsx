@@ -5,7 +5,6 @@ import Aside from "./components/Aside/Aside";
 import './index.css'
 import React, {useCallback, useState} from "react";
 import {useMediaQuery} from 'react-responsive'
-import {motion} from "motion/react";
 
 
 export default function Layout() {
@@ -38,14 +37,14 @@ export default function Layout() {
                                     <div
                                         className={' w-6 h-6 bg-black '}
                                         onClick={handleClick}>
-                                        <img src={'images/menu.svg'} alt='menu'/>
+                                        <img src={'/images/menu.svg'} alt='menu'/>
                                     </div>
                                 </div>
                             :
                             <Aside/>
                         }
                     </div>}
-                    <div className={`lg:w-[${showAside ? '66%' : 'full'}]`}>
+                    <div className={showAside ? 'lg:w-[66%]' : 'w-full'}>
                         <Outlet/>
                     </div>
                 </main>
