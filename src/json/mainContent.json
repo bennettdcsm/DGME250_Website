@@ -3,10 +3,10 @@
     {
       "people": "Noa Mandorf, Sebastian Mendoza",
       "title": "CSM DGME Website Redesign",
-      "link": "on the way",
+      "link": "/",
       "img": "images/StudentProject/WebDesign/csmDmge_NoaSebastian.png",
       "date": "Spring 2025",
-      "description": "hello i did this"
+      "description": ""
       },
     {
       "people": "Noa Mandorf",
@@ -14,7 +14,7 @@
       "link": "https://bennettdcsm.github.io/DGME167_NoaM/",
       "img": "images/StudentProject/WebDesign/portfolio_Noa.png",
       "date": "Fall 2024",
-      "description": "hello i did this"
+      "description": ""
     },
     {
       "people": "Sebastian Mendoza",
@@ -22,7 +22,7 @@
       "link": "https://www.flickr.com/photos/201246554@N04/54337637272/in/dateposted-public",
       "img": "/images/StudentProject/GraphicDesign/hideAndSnake_Sebastian.png",
       "date": "Spring 2025",
-      "description": "hello i did this"
+      "description": ""
     }
   ]
 }

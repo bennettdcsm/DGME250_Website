@@ -26,7 +26,7 @@ export default function Layout() {
             <div className=" container mx-auto max-w-7xl">
 
                 <main className="flex gap-x-[2%] px-[2%] pb-6">
-                    <motion.div className='lg:w-[30%]'>
+                    {showAside && <div className='lg:w-[30%]'>
 
                         {mdScreen ?
                             open ?
@@ -44,8 +44,8 @@ export default function Layout() {
                             :
                             <Aside/>
                         }
-                    </motion.div>
-                    <div className='lg:w-[66%]'>
+                    </div>}
+                    <div className={`lg:w-[${showAside ? '66%' : 'full'}]`}>
                         <Outlet/>
                     </div>
                 </main>

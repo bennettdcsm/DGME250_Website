@@ -44,6 +44,7 @@ export default function EventInfo(props) {
                         style={{
                             position: "absolute",
                             top: "2rem",
+                            width:"1.6rem",
                             right: "1.5rem",
                             fontSize: "1rem",
                             outline: "none",
